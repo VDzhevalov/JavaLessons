@@ -51,6 +51,7 @@ public class Solution
             int data = fileInputStream.read();
             fileOutputStream.write(data);
         }
+
         fileInputStream.close();
         fileOutputStream.close();
     }
